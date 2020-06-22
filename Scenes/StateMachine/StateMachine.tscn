@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Scenes/StateMachine/StateMachine.gd" type="Script" id=1]
+
+[node name="StateMachine" type="Node"]
+script = ExtResource( 1 )
+
+[node name="Debug" type="Label" parent="."]
+anchor_right = 0.462
+margin_left = 841.77
+margin_top = 11.6913
+margin_right = 539.682
+margin_bottom = 25.6913
+__meta__ = {
+"_edit_use_anchors_": false
+}
